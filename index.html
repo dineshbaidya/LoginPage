@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="like.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Here</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="navbar">
+            <ul>
+                <li><img src="logo.png" id="logo"></li> 
+                <li><a href="#" class="li">Home</a></li>
+                <li><a href="#" class="li">Services</a></li>
+                <li><a href="#" class="li">Contact</a></li>
+		<div class="search">
+                <input type="text" placeholder="Search Images" id="search-input">
+                <button id="search-btn">Search</button>
+            </div>
+            </ul>
+        </nav>
+        <div class="welcome">
+            <h2>Welcome To Ush's Boy</h2>
+        </div>
+        <div class="login">
+            <h2 id="log">Login</h2>
+            <div class="u-name">
+                <input type="email" placeholder="Enter Your Email" class="login-pas" id="email" required>
+                <input type="password" placeholder="Enter Your password" class="login-pas" id="pass" required>
+                <input type="submit" id="submit">
+            </div>
+        </div>
+        <h3>&copy; All Copyrights Reserved to Ush's Boy</h2>
+    </div>
+    <script>
+        let a = document.getElementById("email");
+        a.onclick = ()=> {
+            a.style.backgroundColor = '#ffb87eb4';
+        }
+
+        let b = document.getElementById("pass");
+        b.onclick = ()=> {
+            b.style.backgroundColor = '#ffb87eb4';
+        }
+        let c = document.getElementById("submit");
+        c.onclick = ()=> {
+           alert('Your Data Succesfully Transfered To Our Database!')
+           window.location = "index.html";
+        }
+        </script>
+</body>
+</html>

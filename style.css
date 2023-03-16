@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(img-15.jpg) no-repeat center center/cover;
+}
+
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #00000096;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.li{
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover{
+    transition: .2s all ease-in;
+    background: #ffffff;
+    color: black;
+    border-radius: 25px;
+}
+
+#logo{
+    height: 40px;
+    width: 30px;
+    margin-top: -12px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.login{
+    /* background-color: #5182df; */
+    width: 30%;
+    height: 300px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.welcome{
+    position: relative;
+    margin: auto;
+    margin: 50px;
+    text-align: center;
+    /* background-color: #da6060; */
+}
+
+h2{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(79, 249, 255, 0.877);
+    text-shadow: 4px 4px black;
+}
+
+
+.search{
+    position: absolute;
+    right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#search-input{
+    height: 30px;
+    width: 220px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: 0px solid white;
+    padding-left: 5px;
+}
+
+#search-btn{
+    height: 30px;
+    width: 60px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: #22b80e;
+    margin-left: 0px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+h3{
+    color: rgb(46, 46, 46);
+    position: absolute;
+    bottom: 5px;
+    margin-left: 520px;
+}
+
+.u-name{
+    height: 70%;
+    width: 60%;
+    /* background-color: #fff; */
+    margin: auto;
+    margin-top: 5px;
+}
+
+#log{
+    font-size: 1.9rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 0px black;
+}
+
+.login-pas{
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#submit{
+    height: 30px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #48e95e;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    transform: scale(1.05);
+    transition: .3s all ease-in;
+    background-color: #18bb2e;
+}
+
+#submit:active{
+    background-color: #18bb2e;
+    box-shadow: -2px -2px 5px black;
+}
+
+
